@@ -67,3 +67,36 @@ body {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 1fr 50fr;
+}
+
+.side {
+    background-color: #f0b429;
+    height: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+.card-content {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.action-btns {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
