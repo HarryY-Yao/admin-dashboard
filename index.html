@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +11,77 @@
 </head>
 <body>
     <div class="header">
-        <div class="search"></div>
-        <div class="notifications"></div>
-        <div class="greeting"></div>
-        <div class="actions"></div>
+        <div class="search">
+            <button type="submit">Search</button>
+            <input type="search">
+        </div>
+        <div class="profile">
+            <button>bell</button>
+            <a href="">pfp</a>
+            <a href="">Morgan Oakley</a>
+        </div>
+        <div class="greeting">
+            <div class="pfp">pfp</div>
+            <div class="greet">Hi there,</div>
+            <div class="handle">Morgan Oakley (@morgan)</div>
+        </div>
+        <div class="actions">
+            <button class="action">New</button>
+            <button class="action">Upload</button>
+            <button class="action">Share</button>
+        </div>
     </div>
     
     <div class="sidebar">
-        <div class="logo"></div>
-        <div class="nav"></div>
-        <div class="advanced"></div>
+        <div class="logo">
+            <h1>Dashboard</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>Home</li>
+                <li>Profile</li>
+                <li>Messages</li>
+                <li>History</li>
+                <li>Tasks</li>
+                <li>Communities</li>
+            </ul>
+        </div>
+        <div class="advanced">
+            <ul>
+                <li>Settings</li>
+                <li>Support</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
     </div>
     
     <div class="content">
-        <div class="projects"></div>
-        <div class="announcements"></div>
-        <div class="trending"></div>
+        <div class="main-content">
+            <div class="projects">
+                <h3 class="section-title">Your Projects</h3>
+                <div class="card">
+                    <div class="card-content">
+                        <h4>Project title</h4>
+                        <p>Lorem ipsum delor...</p>
+                    </div>
+                    <div class="action-btns">
+                        <button class="action-btn">fav</button>
+                        <button class="action-btn">view</button>
+                        <button class="action-btn">share</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secondary-content">
+            <div class="announcements">
+                <h3 class="section-title">announcements</h3>
+                <div class="anc-card"></div>
+            </div>
+            <div class="trending">
+                <h3 class="section-title">trending</h3>
+                <div class="trending-card"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
