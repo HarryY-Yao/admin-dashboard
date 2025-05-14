@@ -45,7 +45,7 @@ body {
     align-self: center;
     margin-left: 2em;
     display: grid;
-    grid-template-columns: 0.25fr 0.75fr;
+    grid-template-columns: 0.1fr 0.75fr;
 }
 
 input[type="search"] {
